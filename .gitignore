@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Development & Research Notes (Internal)
+.agents/
+DevOS/
+logs/
+logging/
+REVERSE_ENGINEERING_NOTES.md
+TouchTrack/build/
+*.log
+*.zip
+*.dmg
+*.pcm
+
+# Build Artifacts
+build/
+target/
+*.o
+*.ko
+*.so
+*.mod
+*.mod.c
+*.cmd
+.*.cmd
+..*.cmd
+modules.order
+Module.symvers
+.tmp_versions/
+*.dwo
+*.dSYM
+linux/tools/touchid_tool
+linux/tools/touchid-tool
+linux/tools/verify_opcodes
+linux/tools/test_live_protocol
+linux/pam/pam_apple_touchid.so
